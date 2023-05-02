@@ -1,0 +1,90 @@
+/* Google Fonts CDN */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  color: #222;
+}
+
+body {
+  margin: 0;
+}
+
+h1,h3,h5 {
+  padding: 0;
+  margin: 0;
+  line-height: 1;
+}
+
+main {
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.wrap {
+  width: 760px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.wrap h1 {
+  font-size: 148px;
+  letter-spacing: 0.3vw;
+  line-height: 0.8;
+}
+
+.wrap span {
+  font-size: 31px;
+  font-weight: 200;
+  margin-bottom: 52px;
+  text-transform: capitalize;
+  letter-spacing: 3px;
+}
+
+#result_area {
+  font-size: 42px;
+  margin-bottom: 52px;
+  color: #F70776;
+}
+
+#chance_area {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 8px;
+  text-align: right;
+  width: 100%;
+}
+
+.wrap input,
+.wrap button {
+  margin-bottom: 12px;
+  width: 100%;
+  padding: 16px 0;
+  font-size: 32px;
+}
+
+.wrap button {
+  text-transform: uppercase;
+  font-weight: 700;
+  border: 8px solid transparent;
+  background-color: #222;
+  color: #fff;
+  cursor: pointer;
+}
+
+.wrap button:hover {
+  background-color: #fff;
+  color: #222;
+  border: 8px solid #222;
+}
+
+#user_input {
+  text-align: center;
+  border: 8px solid #222;
+}

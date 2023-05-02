@@ -1,14 +1,26 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Guess the number</title>
     <link rel="stylesheet" href="style.css" />
   </head>
 
   <body>
+      <main>
+        <div class="wrap">
+          <h1>Guess the Number</h1>
+          <span>a fun number guessing javascript game</span>
+          <h3 id="result_area">ENTER A NUMBER BETWEEN 1 ~ 100</h3>
+          <h5 id="chance_area">Remaining Opportunities: 5</h5>
+          <input id="user_input" type="number" />
+          <button id="guess_button">guess</button>
+          <button id="reset_button">reset</button>
+        </div>
+      </main>
 
+    <script src="custom.js"></script>
   </body>
 </html>
