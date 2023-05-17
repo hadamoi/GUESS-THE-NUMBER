@@ -19,72 +19,65 @@ h1,h3,h5 {
 
 main {
   position: absolute;
-  top: 10%;
+  top: 50%;
   left: 50%;
-  transform: translateX(-50%);
+  transform: translate(-50%, -50%);
 }
 
 .wrap {
-  width: 760px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin: 0 auto;
 }
 
 .wrap h1 {
-  font-size: 148px;
-  letter-spacing: 0.3vw;
-  line-height: 0.8;
+  font-size: 68px;
 }
 
 .wrap span {
-  font-size: 31px;
-  font-weight: 200;
-  margin-bottom: 52px;
-  text-transform: capitalize;
-  letter-spacing: 3px;
+  font-size: 18px;
+  display: block;
+  padding: 0 0 20px 0;
 }
 
-#result_area {
-  font-size: 42px;
-  margin-bottom: 52px;
-  color: #F70776;
+h3#result_area {
+  color: #CE1F6A;
+  font-size: 22px;
 }
 
-#chance_area {
-  font-size: 20px;
-  font-weight: 500;
-  margin-bottom: 8px;
+h5#chance_area {
+  font-size: 18px;
+  margin-bottom: 10px;
   text-align: right;
-  width: 100%;
+  margin-top: 8px;
 }
 
-.wrap input,
-.wrap button {
-  margin-bottom: 12px;
-  width: 100%;
-  padding: 16px 0;
-  font-size: 32px;
-}
-
-.wrap button {
-  text-transform: uppercase;
-  font-weight: 700;
-  border: 8px solid transparent;
-  background-color: #222;
-  color: #fff;
-  cursor: pointer;
-}
-
-.wrap button:hover {
-  background-color: #fff;
-  color: #222;
-  border: 8px solid #222;
-}
-
-#user_input {
+input#user_input {
   text-align: center;
-  border: 8px solid #222;
+  border: 2px solid #000;
+  padding: 10px;
+  margin-bottom: 4px;
+  transition: border .2s ease;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+input#user_input:focus {
+  outline: none;
+  border: 2px solid #CE1F6A;
+}
+
+button {
+  border: none;
+  background: #000;
+  color: #fff;
+  padding: 10px;
+  font-size: 28px;
+  text-transform: capitalize;
+  margin-bottom: 4px;
+  cursor: pointer;
+  transition: background-color .2s ease;
+}
+
+button:hover {
+  background-color: #CE1F6A;
 }

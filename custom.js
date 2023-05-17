@@ -71,5 +71,6 @@ function reset(){
 
 
 pickRandomNum();
+console.log(computerNum);
 
 };
