@@ -19,7 +19,7 @@ h1,h3,h5 {
 
 main {
   position: absolute;
-  top: 50%;
+  top: 44%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
