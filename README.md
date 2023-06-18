@@ -3,7 +3,7 @@ This is a game made in javascript. <br />
 Guess the computer-generated random number. <br />
 Enter a number between 1 and 100 and it will output a range of values. You have a total of 5 chances. <br />
 Will you be able to guess it? <br />
-Good luck!
+Good luck! 🍀 
 
 #### 📝 Description
 1. Create a random number
@@ -17,4 +17,20 @@ Good luck!
 9. If the user enters a number that has already been entered, it tells them that it was entered and does not subtract the number of chances.
 
 #### ✔️ Things to remember
+```
+let history = [];
+history.includes(userValue);
+```
+* The `history` is an array, and an array is a data structure that stores multiple values. <br />
+includes()` is one of the array methods, which checks whether the given value is contained in the array. <br />
+This method returns a boolean value. <br />
+That is, it returns true if the history array contains userValue, and false otherwise.
+
+```
+let computerNum = 0;
+computerNum = Math.floor(Math.random() * 100) + 1;
+```
+* The `Math.floor()` function takes a number as an argument, discards decimal places, <br />
+and rounds it down to the nearest integer that is less than or equal to it. <br />
+The rounded result is returned as an integer.
 
